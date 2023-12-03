@@ -6,6 +6,10 @@ import { TiCss3 } from "react-icons/ti";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import { FaBootstrap } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
+import { SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiPostman } from "react-icons/si";
+
 
 import {
   SiExpress,
@@ -54,6 +58,15 @@ const Experience = () => {
 
             <article className="experience__details">
               <div>
+                <SiTypescript className="experience__details-icon" />
+                <h4>TypeScript</h4>
+                {/* <small className="text-light">Experienced</small> */}
+              </div>
+              <progress value="80" max="100"></progress>
+            </article>
+
+            <article className="experience__details">
+              <div>
                 <FaBootstrap className="experience__details-icon" />
                 <h4>Bootstrap</h4>
                 {/* <small className="text-light">Experienced</small> */}
@@ -74,6 +87,15 @@ const Experience = () => {
               <div>
                 <GrReactjs className="experience__details-icon" />
                 <h4>React</h4>
+                {/* <small className="text-light">Experienced</small> */}
+              </div>
+              <progress value="90" max="100"></progress>
+            </article>
+
+            <article className="experience__details">
+              <div>
+                <TbBrandNextjs className="experience__details-icon" />
+                <h4>Next.js</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
               <progress value="90" max="100"></progress>
@@ -125,6 +147,15 @@ const Experience = () => {
               <div>
                 <SiFirebase className="experience__details-icon" />
                 <h4>Firebase</h4>
+                {/* <small className="text-light">Experienced</small> */}
+              </div>
+              <progress value="50" max="100"></progress>
+            </article>
+
+            <article className="experience__details">
+              <div>
+                <SiPostman className="experience__details-icon" />
+                <h4>Postman</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
               <progress value="50" max="100"></progress>

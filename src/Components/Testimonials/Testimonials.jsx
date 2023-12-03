@@ -16,7 +16,7 @@ const testimonialData = [
     avatar:
       "https://png.pngtree.com/png-clipart/20210915/ourlarge/pngtree-avatar-placeholder-abstract-white-blue-green-png-image_3918476.jpg",
     name: "Nobody",
-    review: "Nobody has written anything yet",
+    review: "---------",
   },
   {
     avatar:
