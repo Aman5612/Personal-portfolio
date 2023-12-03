@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import { BsFiletypeSql, BsGithub, BsPatchCheckFill } from "react-icons/bs";
+import { BsFiletypeSql, BsGithub } from "react-icons/bs";
 import { RiHtml5Fill } from "react-icons/ri";
 import { TiCss3 } from "react-icons/ti";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
@@ -9,7 +9,6 @@ import { TbBrandCpp } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiPostman } from "react-icons/si";
-
 
 import {
   SiExpress,
