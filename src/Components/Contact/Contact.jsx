@@ -29,7 +29,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>contact@amantiwarii.tech</h5>
+            <h5>connect@amantiwari.tech</h5>
             <a
               href="mailto:contact@amantiwarii.tech"
               target="_blank"
