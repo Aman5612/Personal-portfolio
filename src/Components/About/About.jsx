@@ -14,7 +14,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="AboutImage" />
+            <img src={ME} alt="amantiwari" />
           </div>
         </div>
 
