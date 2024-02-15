@@ -21,7 +21,7 @@ const data = [
     image: IMG2,
     title: "Full-Stack Amazon Clone: E-Comm. Replica with Payment System",
     github: "https://github.com",
-    demo: "https://challenge-53703.web.app",
+    demo: "https://amazonfullstack.netlify.app",
   },
   {
     id: 3,
