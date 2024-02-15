@@ -3,17 +3,18 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/devexchange.png";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/portfolio6.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Lyriks App - Better Version of Spotify App",
+    image: IMG4,
+    title:
+      "DevExchange- A place for developers to exchange ideas & solving problems",
     github: "https://github.com",
-    demo: "https://lyrikss-app.netlify.app",
+    demo: "https://devexchange.amantiwari.tech",
   },
   {
     id: 2,
@@ -31,24 +32,17 @@ const data = [
   },
   {
     id: 4,
-    image: IMG4,
-    title: "Maintaining tasks and tracking progress",
+    image: IMG1,
+    title: "Lyriks App - Better Version of Spotify App",
     github: "https://github.com",
-    demo: "https://dribbble.com/shots/1695582-Maintaining-tasks-and-tracking-progress",
+    demo: "https://lyrikss-app.netlify.app",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "FitnessGuru-Heaven for fitness freaks",
+    github: "https://github.com/Aman5612/FitnessGuruBootstrap.git",
+    demo: "https://aman5612.github.io/FitnessGuruBootstrap/",
   },
 ];
 
@@ -67,9 +61,14 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h3 className="font-bold text-[18px]">{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn">
+                <a
+                  href={github}
+                  target="_blank"
+                  className="btn"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
                 <a
@@ -84,6 +83,30 @@ const Portfolio = () => {
             </article>
           );
         })}
+        <article className="portfolio__item" key="6">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="GoogleMeet(clone)" />
+          </div>
+          <h3 className="font-bold text-[18px]">GoogleMeet Clone(WebRTC)</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/Aman5612/VideoChat-WebRTC.git"
+              target="_blank"
+              className="btn"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://people-meet.netlify.app/"
+              target="_blank"
+              className="btn btn-primary"
+              rel="noreferrer"
+            >
+              In Development
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
